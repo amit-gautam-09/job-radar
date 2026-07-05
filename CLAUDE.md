@@ -20,4 +20,6 @@ runs in GitHub Actions. Full spec in `PLAN.md`.
 - Pipeline: `python -m src.main` (add `--dry-run` to skip state + notifications)
 - Tests: `pytest -q`
 
-**Build phases & status:** see `PLAN.md §Build phases`. Current: Phase 0–1 complete.
+**Build phases & status:** see `PLAN.md §Build phases`. Current: Phase 0–2 complete
+(fetchers/normalize/filters; `--dry-run` works end-to-end). Next: Phase 3 — state
+diffing + Telegram (src/state.py, src/notify.py are stubs).

@@ -357,17 +357,17 @@
   slug: canva
   status: resolved
 - name: Gong
-  ats: smartrecruiters
-  slug: gong
+  ats: greenhouse   # SR "gong" was a defunct NYC media startup (2016-17 postings); real board verified 2026-07-05
+  slug: gongio
   status: resolved
 - name: Privia Health
   ats: smartrecruiters
   slug: priviahealth
   status: resolved
 - name: ServiceTitan
-  ats: smartrecruiters
-  slug: servicetitan
-  status: resolved
+  ats: null   # SR board abandoned (newest posting 2021); careers page -> servicetitan.wd1.myworkdayjobs.com (2026-07-05)
+  slug: null
+  status: workday
 - name: Leadfeeder
   ats: workable
   slug: leadfeeder

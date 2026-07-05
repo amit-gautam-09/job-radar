@@ -1,10 +1,7 @@
 """Filter tests (PLAN.md §Test cases). Ground Rule 5: every filter rule gets a test.
 
-The title-tier and eligibility cases below are the acceptance criteria for Phase 2/3 and
-are encoded now so they are visible and collectible. They are SKIPPED until filters.py is
-implemented; unskip by deleting the module-level skip marker in that phase.
-
-The config-load tests are real and run now — they are the Phase 0 acceptance check.
+The title-tier and eligibility cases are the Phase 2/3 acceptance criteria and run
+against src/filters.py. The config-load tests are the Phase 0 acceptance check.
 """
 from __future__ import annotations
 
@@ -40,10 +37,8 @@ def test_companies_yaml_loads():
 
 
 # --------------------------------------------------------------------------------------
-# Phase 2/3 — acceptance cases (skipped until filters.py exists)
+# Phase 2/3 — acceptance cases
 # --------------------------------------------------------------------------------------
-pytestmark_phase23 = pytest.mark.skip(reason="filters.py lands in Phase 2/3")
-
 # (title, expected_tier, expected_flags_subset)
 TITLE_CASES = [
     ("GTM Engineer", 1, []),
@@ -70,10 +65,12 @@ ELIGIBILITY_CASES = [
     ("San Francisco", "we are unable to sponsor visas at this time", "SPONSORSHIP_NEGATIVE_ONSITE"),
     ("Remote", "must be authorized to work in the United States without sponsorship", "US_REMOTE_ONLY"),
     ("", "", "UNKNOWN"),
+    # description "global" marketing may only upgrade an UNRESTRICTED location
+    ("Remote", "we are a remote-first, global company", "GLOBAL_REMOTE"),
+    ("Sweden (Remote)", "we are a remote-first, global company", "UNKNOWN"),
 ]
 
 
-@pytestmark_phase23
 @pytest.mark.parametrize("title, tier, flags", TITLE_CASES)
 def test_title_tier(title, tier, flags):
     from src import filters
@@ -84,7 +81,6 @@ def test_title_tier(title, tier, flags):
         assert flag in result.flags
 
 
-@pytestmark_phase23
 @pytest.mark.parametrize("location, desc, expected", ELIGIBILITY_CASES)
 def test_eligibility(location, desc, expected):
     from src import filters

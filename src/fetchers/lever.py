@@ -15,3 +15,15 @@ Job fields (confirmed present):
 Garbage slug -> HTTP 404 + {"ok": false, ...}. Empty-but-valid board -> 200 + [].
 """
 from __future__ import annotations
+
+import requests
+
+from . import FetchError, get_json
+
+
+def fetch(session: requests.Session, slug: str) -> list[dict]:
+    url = f"https://api.lever.co/v0/postings/{slug}?mode=json"
+    data = get_json(session, url)
+    if not isinstance(data, list):
+        raise FetchError(f"unexpected shape from lever/{slug}")
+    return data
