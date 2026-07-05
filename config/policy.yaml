@@ -1,0 +1,9 @@
+# Eligibility + alerting policy knobs. Defaults per PLAN.md §Config schemas.
+
+alert_eligibilities: [INDIA_ELIGIBLE, GLOBAL_REMOTE, SPONSORSHIP_POSITIVE]
+digest_eligibilities: [US_REMOTE_ONLY, UNKNOWN]     # weekly roundup, tier 1-2 titles only
+drop_eligibilities: [SPONSORSHIP_NEGATIVE_ONSITE]
+include_tier3_in_digest: true
+ai_layer: auto          # auto = on when ANTHROPIC_API_KEY present
+ai_alert_threshold: 55  # score below this demotes an alert to the digest
+max_alerts_per_run: 15  # overflow goes to a single digest message

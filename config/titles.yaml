@@ -1,0 +1,34 @@
+# Title match patterns — case-insensitive regex, matched against the job TITLE only.
+# Built from data/GTM_Engineer_Similar_Roles_2026.md (covers all 15 "Titles to search on
+# LinkedIn" plus the tier structure). Schema is authoritative per PLAN.md §Config schemas.
+#
+# tier1/tier2 = alert-grade. tier3 = weekly digest only by default (toggle in policy.yaml).
+# hard_exclude never alerts. soft_downrank keeps the match but flags it (a tier match wins
+# over a downrank — e.g. "Technical Growth Lead" is tier2 despite the `lead` downrank).
+
+tier1:   # alert-grade — from the doc's Tier 1 + top of Tier 2
+  - 'gtm\s+(ai\s+)?engineer'
+  - 'go[\s-]*to[\s-]*market\s+engineer'
+  - 'revenue\s+operations?\s+engineer'
+  - 'growth\s+engineer'
+  - 'sales\s+automation\s+engineer'
+  - 'revenue\s+systems?\s+(engineer|architect)'
+  - 'pipeline\s+engineer'
+  - 'revenue\s+engineer'
+tier2:   # alert-grade
+  - 'gtm\s+(operations?|ops)\s+(specialist|manager|analyst)'
+  - 'marketing\s+(operations?|automation)\s+engineer'
+  - 'sales\s+operations?\s+engineer'
+  - 'technical\s+growth\s+(lead|manager)'
+  - 'growth\s+operations'
+tier3:   # weekly digest only by default (high volume / partial fit) — toggle in policy.yaml
+  - 'solutions?\s+engineer'
+  - 'forward\s+deployed\s+engineer'
+  - 'revenue\s+analyst'
+  - 'demand\s+gen(eration)?\s+engineer'
+hard_exclude:          # never alert
+  - '\b(director|vp|vice president|head of|chief|principal|staff)\b'
+soft_downrank:         # keep, but flag; AI layer / human judges
+  - '\bsenior\b'
+  - '\b(lead)\b'       # note: "Technical Growth Lead" is tier2 — tier match wins over downrank
+also_match_intern: true   # titles containing intern/graduate/associate + any tier keyword => tier1
