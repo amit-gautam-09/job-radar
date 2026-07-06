@@ -1,1 +1,1070 @@
-{}
+{
+  "ashby:airwallex:555eeddc-7e50-4fcf-a2a6-5e4c489adc0a": {
+    "company": "Airwallex",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Engineering Manager, Growth"
+  },
+  "ashby:airwallex:6fb704d3-9454-4ad4-b442-9a6db66d253f": {
+    "company": "Airwallex",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Engineering Lead, Growth"
+  },
+  "ashby:airwallex:97b1fb70-efd9-4331-87aa-1f9046dba31b": {
+    "company": "Airwallex",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Software Engineer, Growth"
+  },
+  "ashby:airwallex:bfddc52e-4e94-41a7-9a0d-96dfe6f089f7": {
+    "company": "Airwallex",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer - Spend/ERP"
+  },
+  "ashby:airwallex:c3c24538-0a7e-4edc-b3b0-ee9b177049f4": {
+    "company": "Airwallex",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Engineering Manager, Growth"
+  },
+  "ashby:ashby:7d8ec4fe-50aa-4d7e-9eec-db7b2d14bcbd": {
+    "company": "Ashby",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Mid-Market Solutions Engineering Manager"
+  },
+  "ashby:ashby:dfc35159-ffe5-4d42-bea3-552b5dc17628": {
+    "company": "Ashby",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Enterprise Solutions Engineering Manager"
+  },
+  "ashby:ashby:e1eba70b-51ae-422c-ae5d-a36bc5d72441": {
+    "company": "Ashby",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer - DACH"
+  },
+  "ashby:cohere:031c2335-db85-4265-8a88-a54b911be36a": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Agentic Platform (Korea)"
+  },
+  "ashby:cohere:1fa01a03-9253-4f62-8f10-0fe368b38cb9": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Agentic Platform (West Coast)"
+  },
+  "ashby:cohere:2d256112-b336-4539-8133-a0bf7f6698f0": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Agentic Platform (UK/Europe)"
+  },
+  "ashby:cohere:38f75a48-199c-4325-a7f8-2af6ed6a1b3b": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Infrastructure Specialist"
+  },
+  "ashby:cohere:52a2b83b-7537-4e88-af7b-e4e9630a96e0": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Infrastructure Specialist (Public Sector)"
+  },
+  "ashby:cohere:556467eb-3dc8-46e2-b015-277872210997": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Sovereign AI"
+  },
+  "ashby:cohere:69a9ab2e-a7eb-4c4f-825a-5c25cf063900": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Infrastructure Specialist (Europe/Middle East)"
+  },
+  "ashby:cohere:75c0032c-7200-48bf-9d6d-355880dd93d9": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Agentic Platform"
+  },
+  "ashby:cohere:9c18b199-cd1f-4ef3-9fab-ce05589348ae": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Agentic Platform (Singapore)"
+  },
+  "ashby:cohere:b0bcef37-1d20-414f-aade-c54942d63df9": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Agentic Platform"
+  },
+  "ashby:cohere:be48aafc-9610-4ebd-8414-a0722a3cd59a": {
+    "company": "Cohere",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Infrastructure Specialist (North America)"
+  },
+  "ashby:handshake:5fd7dcf2-d2a2-4d82-bc8a-82d701768b43": {
+    "company": "Handshake",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior AI Forward Deployed Engineer"
+  },
+  "ashby:handshake:b8fde2f6-f30d-4e08-842d-eac799100394": {
+    "company": "Handshake",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer, Handshake AI"
+  },
+  "ashby:handshake:bd860a01-b630-4530-9e65-6d762e47e818": {
+    "company": "Handshake",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer, Handshake AI Enterprise"
+  },
+  "ashby:handshake:c91b7ebf-2c69-4d91-809d-a30ea0b9dc18": {
+    "company": "Handshake",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Handshake AI Enterprise"
+  },
+  "ashby:handshake:fb6f274a-ec59-497b-a119-8155c5d85190": {
+    "company": "Handshake",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Manager, Forward Deployed Engineering"
+  },
+  "ashby:linear:d37b3d76-3080-47f9-8a19-60505573112c": {
+    "company": "Linear",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Europe"
+  },
+  "ashby:miro:4914fe1a-703d-4445-90a6-1077187b713a": {
+    "company": "Miro",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer"
+  },
+  "ashby:mutiny:69916bd4-f70b-404a-abc7-9a270fdedfaa": {
+    "company": "Mutiny",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "GTM Engineer"
+  },
+  "ashby:notion:10437426-14c8-4c45-8075-67959ce80393": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, GTM"
+  },
+  "ashby:notion:2ca618b4-2223-47ca-b1f0-84ac101fcd90": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, GTM, France"
+  },
+  "ashby:notion:2f91a6fc-6985-4f08-b4c6-2a5ef1563418": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Enterprise, France"
+  },
+  "ashby:notion:3c0141de-06fb-4186-9cd4-75395f0b5488": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Manager, Solutions Engineering, Mid-Market"
+  },
+  "ashby:notion:4bc0802c-b5e0-411c-be01-daaea2bc3ae0": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, GTM - Japan"
+  },
+  "ashby:notion:6ad34426-b980-436b-80c4-3634c00094ad": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, EMEA"
+  },
+  "ashby:notion:a6a91521-87cd-41aa-b800-24dc8808d375": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Partner Solutions Engineer"
+  },
+  "ashby:notion:acadea40-df26-49fe-8c6e-a0b044edacf1": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Korea"
+  },
+  "ashby:notion:b0c0afb3-f075-47c7-9a8e-428032b3bb20": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer - Enterprise - AMER"
+  },
+  "ashby:notion:b50c884e-1170-46d2-ae4c-3f559d2c98c4": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, GTM, DACH"
+  },
+  "ashby:notion:b6a57df9-ead9-4788-ab63-3bf4b31e0b19": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, French"
+  },
+  "ashby:notion:e5d316fa-0857-4e4b-96ca-1f2710a96c95": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Tokyo"
+  },
+  "ashby:notion:fede5201-c97f-4492-bfa6-66da7afbb068": {
+    "company": "Notion",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Commercial"
+  },
+  "ashby:openai:05223b5a-5ff1-4fe7-9f97-4ef7fc68b8ef": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - Munich"
+  },
+  "ashby:openai:059ac93e-3fc9-42e9-a4f4-367c0fd5de14": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Platform Engineer, Forward Deployed Engineering (FDE) -SF"
+  },
+  "ashby:openai:06ec3598-8028-4a17-9654-1b2f21cbdd41": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Digital Natives"
+  },
+  "ashby:openai:11aaa7ee-21b6-431f-99b1-42c4b830949e": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Digital Natives"
+  },
+  "ashby:openai:1953efa7-5c1f-4878-b4cb-926cd35aafdb": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Core Enterprise"
+  },
+  "ashby:openai:1bbcccd1-777b-4788-b77a-4dffe64fac06": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Manager, Forward Deployed Engineering - Munich"
+  },
+  "ashby:openai:2218158b-f103-4d85-b4f9-e0f2983d6849": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - Madrid"
+  },
+  "ashby:openai:28cd6fe2-4096-426b-8b08-52a66458e2c6": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer "
+  },
+  "ashby:openai:305a4b22-7ff9-4fa5-9229-c6a22c9aa64f": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer (FDE) - SF"
+  },
+  "ashby:openai:3a64da1c-bf29-4e52-baa3-a8f35f16ff74": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Core Digital Native"
+  },
+  "ashby:openai:45ab8896-06bd-4c8e-bb76-914483d5d180": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Platform Engineer, Forward Deployed Engineering (FDE) - NYC"
+  },
+  "ashby:openai:4c078f82-93b9-427c-8fd8-95de198884b4": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - Singapore"
+  },
+  "ashby:openai:51b17595-3a70-43be-a333-3a3952303284": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - Tokyo"
+  },
+  "ashby:openai:56fceb8e-589b-410e-8b21-24f9945ccb9d": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Digital Natives (Strategics) "
+  },
+  "ashby:openai:57bbaedc-30c1-4f1d-b194-e32a6adf874c": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Android Engineer, Growth"
+  },
+  "ashby:openai:57cfe1d3-27b6-4761-909c-fec7829e9227": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Pre-Sales - Tokyo"
+  },
+  "ashby:openai:580f9e7e-20cc-429c-877a-0b5f5233abdd": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - Stockholm"
+  },
+  "ashby:openai:5bbc43df-558a-4e4b-a0cf-83f185c664d7": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Manager, Forward Deployed Engineering"
+  },
+  "ashby:openai:5db54c88-2ff4-4a2e-98e2-68439d59e3df": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Pre-Sales  "
+  },
+  "ashby:openai:68f1345b-313f-4917-88ce-b281b01a4864": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Manager, Forward Deployed Engineering - London"
+  },
+  "ashby:openai:6c6c1ace-12d6-48f0-88f0-488ff8521571": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "IT Solutions Engineer"
+  },
+  "ashby:openai:75e02795-6c6e-4c09-a723-251b5c730ed2": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": " Solutions Engineer, Financial Services"
+  },
+  "ashby:openai:77bc0b3a-35c1-4ecf-99c7-1b3b19d959ca": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Full Stack Software Engineer, Growth"
+  },
+  "ashby:openai:77f87617-4dc5-45af-9b6b-2f408e45a119": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Design Verification, Forward Deployed Engineering"
+  },
+  "ashby:openai:8cec4384-c211-4f12-99f7-b16c8aa46afb": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Large Enterprise"
+  },
+  "ashby:openai:98a36c10-3497-4955-9cc0-a6f211e4dc1b": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Pre-Sales"
+  },
+  "ashby:openai:9ddb1bd1-3ee0-4350-88f7-3710057b8c93": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - Paris"
+  },
+  "ashby:openai:9e39d642-6c78-4c21-bc86-49b1773c933c": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - Sydney"
+  },
+  "ashby:openai:9f179118-5df6-4ccb-b8d1-cfb0642fba37": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineering, Ads Solutions "
+  },
+  "ashby:openai:9f2e4897-be7d-40a1-804d-37e6608f506b": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Technical Deployment Lead, Forward Deployed Engineering (FDE) - NYC"
+  },
+  "ashby:openai:ad06299f-d4e2-4de6-a925-b2e94b3c1d0b": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer "
+  },
+  "ashby:openai:b073abb1-cf6c-4fd9-a318-732fdd2f1408": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Platform Engineering Manager, Forward Deployed Engineering (FDE)"
+  },
+  "ashby:openai:b40efa93-da3c-4593-bc98-03d203cd0488": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - Dublin"
+  },
+  "ashby:openai:b43339a1-e830-4761-a193-3438f34f9ebb": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - Seoul"
+  },
+  "ashby:openai:c00094f9-e071-4870-afec-104beb3ce499": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Large Enterprise"
+  },
+  "ashby:openai:c56d195f-75d8-4c51-b951-b76caa0d8760": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Private Equity"
+  },
+  "ashby:openai:c5a99c73-c4c4-4321-a519-e0104dc54747": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Technical Deployment Lead, Forward Deployed Engineering (FDE) - SF"
+  },
+  "ashby:openai:cf31f5f6-4e67-4695-808c-9cdd2e1fa3b1": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer (FDE) - NYC"
+  },
+  "ashby:openai:cf83e70e-6949-480f-ad97-df0f22cd0283": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - London"
+  },
+  "ashby:openai:db5a708d-1d7a-4aa3-8dd3-0d0423b6b69f": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Gov"
+  },
+  "ashby:openai:dc17edac-2993-4318-812a-14864c6f4658": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer (FDE) - Seattle"
+  },
+  "ashby:openai:e665817a-bf86-4208-8cf3-c1754c28b401": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Pre-Sales"
+  },
+  "ashby:openai:e6df42d0-6789-459e-b77b-62d7c5fd78da": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Technical Deployment Lead, Forward Deployed Engineering (FDE)- Platform"
+  },
+  "ashby:openai:e9d435e1-1b9e-4715-84ce-75f372e5559c": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - UAE"
+  },
+  "ashby:openai:eaf9207e-84c9-4fa2-bd57-6877b7eb7f79": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Product Engineer, GTM Growth Engineering"
+  },
+  "ashby:openai:f2794e39-9c8f-4590-ba4d-3fa19a0e61f4": {
+    "company": "OpenAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Large Enterprise"
+  },
+  "ashby:qualified:8915e97d-1d77-4841-96ca-d86460f50bc6": {
+    "company": "Qualified",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer"
+  },
+  "ashby:ramp:deca582c-a1d0-4705-9975-60aed81ba89f": {
+    "company": "Ramp",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Software Engineer, AI Forward Deployed"
+  },
+  "ashby:semgrep:04e97176-5427-4029-8ba8-a9e8dbed2a3b": {
+    "company": "Semgrep",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer - Enterprise"
+  },
+  "ashby:semgrep:6d99c53a-86a0-4ffe-a4fa-d9d92bea8716": {
+    "company": "Semgrep",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer - Enterprise (APAC)"
+  },
+  "ashby:semgrep:76c20296-d64b-4882-922e-e7152be18ffb": {
+    "company": "Semgrep",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer - Enterprise"
+  },
+  "ashby:semgrep:9700188b-be5d-4de1-abea-4f8397f596c8": {
+    "company": "Semgrep",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Software Engineer, Growth"
+  },
+  "ashby:semgrep:ddeaaf40-919b-4168-84e0-6c4e715ad208": {
+    "company": "Semgrep",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Sales Solutions Engineer - Digital Native"
+  },
+  "greenhouse:alloy:8610085002": {
+    "company": "Alloy",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Founding Forward Deployed Engineer"
+  },
+  "greenhouse:anthropic:5186669008": {
+    "company": "Anthropic",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Finance Systems Engineer, Revenue"
+  },
+  "greenhouse:apolloio:5778017004": {
+    "company": "Apollo.io",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Go-To-Market Engineer I, SMB"
+  },
+  "greenhouse:apolloio:5918855004": {
+    "company": "Apollo.io",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Go-To-Market Engineer II, Mid-Market"
+  },
+  "greenhouse:asana:7913978": {
+    "company": "Asana",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer"
+  },
+  "greenhouse:asana:8027353": {
+    "company": "Asana",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer"
+  },
+  "greenhouse:asana:8027389": {
+    "company": "Asana",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Enterprise Solutions Engineer, Service Management"
+  },
+  "greenhouse:asana:8027416": {
+    "company": "Asana",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Enterprise Solutions Engineer, Service Management"
+  },
+  "greenhouse:asana:8027447": {
+    "company": "Asana",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Command"
+  },
+  "greenhouse:asana:8027465": {
+    "company": "Asana",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "GTM Operations Manager - New Products"
+  },
+  "greenhouse:asana:8029540": {
+    "company": "Asana",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "SMB Solutions Engineer, Client Management"
+  },
+  "greenhouse:asana:8031595": {
+    "company": "Asana",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer"
+  },
+  "greenhouse:asana:8044789": {
+    "company": "Asana",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer"
+  },
+  "greenhouse:brex:8339037002": {
+    "company": "Brex",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Engineering Manager, GTM Engineering "
+  },
+  "greenhouse:brex:8367549002": {
+    "company": "Brex",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Engineering Manager, GTM Engineering "
+  },
+  "greenhouse:brex:8367552002": {
+    "company": "Brex",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Engineering Manager, GTM Engineering "
+  },
+  "greenhouse:brex:8367553002": {
+    "company": "Brex",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Engineering Manager, GTM Engineering "
+  },
+  "greenhouse:figma:5835673004": {
+    "company": "Figma",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Technical Revenue Analyst (Dublin, Ireland) "
+  },
+  "greenhouse:gongio:4591437006": {
+    "company": "Gong",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Lead Solution Engineer"
+  },
+  "greenhouse:gongio:4652267006": {
+    "company": "Gong",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Manager, Solution Engineering - Industry Expansion"
+  },
+  "greenhouse:grafanalabs:5789080004": {
+    "company": "Grafana Labs",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer | Sweden | Remote "
+  },
+  "greenhouse:grafanalabs:5829645004": {
+    "company": "Grafana Labs",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer | East or Central US | Remote"
+  },
+  "greenhouse:grafanalabs:5838158004": {
+    "company": "Grafana Labs",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer | East Coast | Remote"
+  },
+  "greenhouse:grafanalabs:6094015004": {
+    "company": "Grafana Labs",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer | Toronto | Remote"
+  },
+  "greenhouse:grafanalabs:6098834004": {
+    "company": "Grafana Labs",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer | West Coast | Remote"
+  },
+  "greenhouse:grafanalabs:6099558004": {
+    "company": "Grafana Labs",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer | West Coast | Remote"
+  },
+  "greenhouse:grafanalabs:6099563004": {
+    "company": "Grafana Labs",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer | East Coast | Remote"
+  },
+  "greenhouse:greenhouse:7982414": {
+    "company": "Greenhouse",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "GTM Engineer"
+  },
+  "greenhouse:greenhouse:7985838": {
+    "company": "Greenhouse",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "GTM Engineer"
+  },
+  "greenhouse:hubspotjobs:7953436": {
+    "company": "HubSpot",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Lead Solutions Engineer (IC), Japan (P)"
+  },
+  "greenhouse:komodohealth:8544993002": {
+    "company": "Komodo Health",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer, AI"
+  },
+  "greenhouse:komodohealth:8569468002": {
+    "company": "Komodo Health",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer, AI"
+  },
+  "greenhouse:lattice:8570083002": {
+    "company": "Lattice",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "GTM Engineer"
+  },
+  "greenhouse:nextdoor:7939631": {
+    "company": "Nextdoor",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "GTM Engineer"
+  },
+  "greenhouse:okta:3751281": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer - Strategic"
+  },
+  "greenhouse:okta:6839581": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Alliances Solution Engineering APJ"
+  },
+  "greenhouse:okta:6907820": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer, Strategic (Chicago)"
+  },
+  "greenhouse:okta:7480043": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Sr Solutions Engineer - Japan"
+  },
+  "greenhouse:okta:7535056": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Auth0 - German speaking"
+  },
+  "greenhouse:okta:7535277": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Strategic Solutions Engineer"
+  },
+  "greenhouse:okta:7536447": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer- West Coast"
+  },
+  "greenhouse:okta:7588146": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer"
+  },
+  "greenhouse:okta:7592210": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer- West Coast"
+  },
+  "greenhouse:okta:7600340": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer"
+  },
+  "greenhouse:okta:7607557": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer (North East)"
+  },
+  "greenhouse:okta:7692313": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer/Auth0"
+  },
+  "greenhouse:okta:7727835": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer"
+  },
+  "greenhouse:okta:7768480": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer"
+  },
+  "greenhouse:okta:7852859": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Okta (West Coast)"
+  },
+  "greenhouse:okta:7897125": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer, Auth0"
+  },
+  "greenhouse:okta:7940112": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer, Okta (Mid Atlantic)"
+  },
+  "greenhouse:okta:7961356": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer - Okta for AI Agents"
+  },
+  "greenhouse:okta:7976083": {
+    "company": "Okta",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer"
+  },
+  "greenhouse:pendo:8597810002": {
+    "company": "Pendo",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "GTM AI Engineer"
+  },
+  "greenhouse:project44:8020610": {
+    "company": "project44",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer"
+  },
+  "greenhouse:project44:8020617": {
+    "company": "project44",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer"
+  },
+  "greenhouse:project44:8020643": {
+    "company": "project44",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer"
+  },
+  "greenhouse:project44:8020677": {
+    "company": "project44",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer"
+  },
+  "greenhouse:salesloft:7859368": {
+    "company": "Salesloft",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Billing and Collections Revenue Analyst"
+  },
+  "greenhouse:scaleai:4554440005": {
+    "company": "Scale AI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Enterprise"
+  },
+  "greenhouse:scaleai:4593571005": {
+    "company": "Scale AI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, GenAI "
+  },
+  "greenhouse:scaleai:4640096005": {
+    "company": "Scale AI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Machine Learning Solutions Engineer – Robotics "
+  },
+  "greenhouse:scaleai:4642876005": {
+    "company": "Scale AI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer, Enterprise"
+  },
+  "greenhouse:scaleai:4663481005": {
+    "company": "Scale AI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer (Clearance Required)"
+  },
+  "greenhouse:scaleai:4710382005": {
+    "company": "Scale AI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Solutions Engineer – Robotics & Autonomous Driving"
+  },
+  "greenhouse:stripe:7230452": {
+    "company": "Stripe",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer, Privy"
+  },
+  "greenhouse:stripe:7249744": {
+    "company": "Stripe",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Backend Engineer, Forward Deployed Engineering"
+  },
+  "greenhouse:stripe:7377101": {
+    "company": "Stripe",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Technical Solutions Engineer"
+  },
+  "greenhouse:stripe:7964956": {
+    "company": "Stripe",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Full Stack Engineer, Growth"
+  },
+  "greenhouse:stripe:8008880": {
+    "company": "Stripe",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Growth Engineer"
+  },
+  "greenhouse:taxbit:6008505004": {
+    "company": "Taxbit",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer"
+  },
+  "greenhouse:togetherai:5178712007": {
+    "company": "Together AI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "GTM Engineer"
+  },
+  "greenhouse:typeform:8043151": {
+    "company": "Typeform",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer"
+  },
+  "greenhouse:vercel:5613601004": {
+    "company": "Vercel",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Software Engineer, Growth"
+  },
+  "greenhouse:webflow:7728896": {
+    "company": "Webflow",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Forward Deployed Engineer"
+  },
+  "greenhouse:webflow:7965515": {
+    "company": "Webflow",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Manager, Solutions Engineering - EMEA"
+  },
+  "greenhouse:webflow:7980379": {
+    "company": "Webflow",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior GTM Engineer, Marketing Operations"
+  },
+  "greenhouse:webflow:8002892": {
+    "company": "Webflow",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Lead Solutions Engineer - West"
+  },
+  "greenhouse:webflow:8037095": {
+    "company": "Webflow",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Senior Solutions Engineer - West"
+  },
+  "greenhouse:xai:5136064007": {
+    "company": "xAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Gas Pipeline Engineer"
+  },
+  "greenhouse:xai:5136287007": {
+    "company": "xAI",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "X Developer Platform – Forward Deployed Engineer, X API"
+  },
+  "lever:hhaexchange:f3ef261c-3ef2-4ed4-b0f2-cf2f8b2fa24f": {
+    "company": "HHAeXchange",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "GTM Engineer"
+  },
+  "lever:outreach:c050b2d3-1c6b-4eea-86d1-ef505bd2b4cb": {
+    "company": "Outreach",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer – AI Revenue Agents"
+  },
+  "lever:palantir:96a0ce26-cf84-4fa8-934b-acc4363620b2": {
+    "company": "Palantir",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Forward Deployed Engineer - Mixed Reality"
+  },
+  "smartrecruiters:canva:6000000001165387": {
+    "company": "Canva",
+    "first_seen": "2026-07-06",
+    "last_seen": "2026-07-06",
+    "title": "Education Solutions Engineer"
+  }
+}
