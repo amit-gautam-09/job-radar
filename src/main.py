@@ -1,8 +1,8 @@
 """Orchestrator: fetch -> normalize -> filter -> diff -> notify.
 
-Phase 2 ships fetch -> normalize -> filter and `--dry-run` (print matches, touch
-nothing). State diffing + Telegram land in Phase 3; running without --dry-run
-says so and exits rather than pretending.
+`--dry-run` prints matches and touches nothing (Phase 2). The live path (Phase 3)
+diffs against state/seen.json, seeds a baseline on first run, then sends per-match
+alerts + a digest to Telegram and persists state.
 
 Politeness (Ground Rule 3): <=10 workers total, one requests.Session per company,
 descriptions fetched per-job only for title-tier matches on the two ATSes that
@@ -12,15 +12,17 @@ from __future__ import annotations
 
 import argparse
 import concurrent.futures as cf
+import os
 import sys
 import time
 from dataclasses import dataclass, field
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
 import yaml
 
-from . import filters
+from . import filters, notify, state
 from .fetchers import FETCHERS, FetchError
 from .normalize import Job, normalize
 
@@ -135,6 +137,86 @@ def print_dry_run(results: list[CompanyResult]) -> None:
     print("=" * 78)
 
 
+def load_dotenv(path: Path = ROOT / ".env") -> None:
+    """Minimal .env loader (deps stay at requests/pyyaml/pytest — no python-dotenv).
+    Existing environment wins, so CI's Actions secrets are never overridden."""
+    if not path.exists():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, val = line.split("=", 1)
+        os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
+
+
+def _sorted_matches(results: list[CompanyResult]) -> list[Job]:
+    matches = [j for r in results if not r.error for j in r.matches]
+    matches.sort(key=lambda j: (j.title_tier, ELIGIBILITY_ORDER.index(j.eligibility),
+                                j.company.lower()))
+    return matches
+
+
+def _health(results: list[CompanyResult]) -> str:
+    """Return a health-alert string when >20% of endpoints failed, else '' (PLAN §Notify)."""
+    failed = [r for r in results if r.error]
+    if not results or len(failed) / len(results) <= 0.2:
+        return ""
+    names = ", ".join(f"{r.name} ({r.ats}/{r.slug})" for r in sorted(failed, key=lambda r: r.name))
+    return f"{len(failed)}/{len(results)} endpoints failed: {names}"
+
+
+def run_live() -> int:
+    """Phase 3 live path: fetch -> diff -> seed/alert/digest -> persist state."""
+    load_dotenv()
+    notifier = notify.Notifier.from_env()
+    if notifier is None:
+        print("TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID not set (see .env.example) -- "
+              "cannot send notifications. Use --dry-run to run without them.",
+              file=sys.stderr)
+        return 2
+
+    now = datetime.now(timezone.utc)
+    policy = notify.load_policy()
+    t0 = time.monotonic()
+    results = run_pipeline()
+    matches = _sorted_matches(results)
+
+    try:
+        seen = state.load_state()
+    except (ValueError, OSError) as exc:
+        notify.send_health(notifier, f"seen.json unreadable: {exc}")
+        print(f"state load failed: {exc}", file=sys.stderr)
+        return 1
+
+    first_run = not seen
+    new = state.diff_new(seen, matches)
+
+    try:
+        if first_run:
+            sent = notify.send_seed_summary(notifier, results, matches, policy)
+            mode = "seed"
+        else:
+            sent = notify.send_new_matches(notifier, new, policy)
+            mode = "diff"
+        health = _health(results)
+        if health:
+            sent += notify.send_health(notifier, health)
+    except notify.NotifyError as exc:
+        # Don't persist state: leave `new` unrecorded so the next run retries the alert.
+        print(f"notify failed, state NOT written: {exc}", file=sys.stderr)
+        return 1
+
+    state.record(seen, matches, now)
+    pruned = state.prune(seen, now)
+    state.save_state(seen)
+
+    print(f"\n  job-radar live run ({mode}): {len(matches)} matches, "
+          f"{len(new)} new, {sent} message(s) sent, {pruned} pruned, "
+          f"{len(seen)} tracked -- {time.monotonic() - t0:.1f}s", file=sys.stderr)
+    return 1 if _health(results) else 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(prog="job-radar")
     parser.add_argument(
@@ -144,9 +226,7 @@ def main() -> int:
     )
     args = parser.parse_args()
     if not args.dry_run:
-        print("state + notifications land in Phase 3 -- run with --dry-run for now",
-              file=sys.stderr)
-        return 2
+        return run_live()
 
     t0 = time.monotonic()
     results = run_pipeline()

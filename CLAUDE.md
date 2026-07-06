@@ -20,6 +20,8 @@ runs in GitHub Actions. Full spec in `PLAN.md`.
 - Pipeline: `python -m src.main` (add `--dry-run` to skip state + notifications)
 - Tests: `pytest -q`
 
-**Build phases & status:** see `PLAN.md §Build phases`. Current: Phase 0–2 complete
-(fetchers/normalize/filters; `--dry-run` works end-to-end). Next: Phase 3 — state
-diffing + Telegram (src/state.py, src/notify.py are stubs).
+**Build phases & status:** see `PLAN.md §Build phases`. Current: Phase 0–3 complete
+(fetchers/normalize/filters; state diffing + seed mode + Telegram alerts/digests; the
+live path `python -m src.main` seeds, diffs `state/seen.json`, and notifies). 54 tests
+green. Next: Phase 4 — CI (`.github/workflows/daily.yml` exists; add the two Telegram
+values as Actions secrets, test a `workflow_dispatch` run, verify the state commit).
