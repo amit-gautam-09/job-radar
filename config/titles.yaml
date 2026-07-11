@@ -22,12 +22,21 @@ tier2:   # alert-grade
   - 'technical\s+growth\s+(lead|manager)'
   - 'growth\s+operations'
 tier3:   # weekly digest only by default (high volume / partial fit) — toggle in policy.yaml
-  - 'solutions?\s+engineer'
-  - 'forward\s+deployed\s+engineer'
+  # NOTE: 'solutions engineer' and 'forward deployed engineer' were removed 2026-07-11.
+  # In practice they were ~83% of all matches (Okta/Auth0 SEs read as cybersecurity, the
+  # Palantir/OpenAI FDE families read as software-dev), drowning the GTM-Engineer core.
+  # They are Tier 3 (~68-72%) in data/GTM_Engineer_Similar_Roles_2026.md but off-target
+  # for this radar — re-add here if you want them back.
   - 'revenue\s+analyst'
   - 'demand\s+gen(eration)?\s+engineer'
-hard_exclude:          # never alert
+hard_exclude:          # never alert / never match (checked against the raw title first)
   - '\b(director|vp|vice president|head of|chief|principal|staff)\b'
+  # Pure software / infra / security engineering — dev roles that merely sit inside a
+  # growth or GTM org ("Android Engineer, Growth", "Senior Software Engineer, Growth").
+  # "systems" is intentionally ABSENT so "Revenue Systems Engineer" (tier1) still matches.
+  - '\b(android|ios|mobile|frontend|front[\s-]?end|backend|back[\s-]?end|full[\s-]*stack|software|firmware|embedded|hardware|data|platform|infrastructure|devops|site\s+reliability|sre|qa|security|cyber\w*|network)\s+engineer'
+  # Industrial "pipeline" (oil & gas etc.) — not the sales-pipeline sense of tier1.
+  - '\b(gas|oil|petroleum|natural\s+gas|water|wastewater|hydrogen)\s+pipeline'
 soft_downrank:         # keep, but flag; AI layer / human judges
   - '\bsenior\b'
   - '\b(lead)\b'       # note: "Technical Growth Lead" is tier2 — tier match wins over downrank

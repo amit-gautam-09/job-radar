@@ -44,13 +44,21 @@ TITLE_CASES = [
     ("GTM Engineer", 1, []),
     ("Go-To-Market Engineer", 1, []),
     ("Growth Engineer", 1, []),
+    ("Revenue Systems Engineer", 1, []),         # "systems" is NOT a dev-exclude keyword
     ("Senior GTM Engineer", 1, ["senior_downrank"]),
     ("Director, Revenue Operations", 0, ["hard_exclude"]),
     ("GTM Operations Manager", 2, []),
-    ("Technical Growth Lead", 2, []),           # tier match beats `lead` downrank
-    ("Solutions Engineer", 3, []),
-    ("Software Engineer, Growth", 1, []),        # order-insensitive
+    ("Technical Growth Lead", 2, []),            # tier match beats `lead` downrank
+    ("Operations Engineer, Revenue", 1, []),     # order-insensitive rotation still works
     ("GTM Engineer Intern", 1, []),
+    # 2026-07-11 tightening — the SE/FDE firehose + pure-dev + industrial titles now drop.
+    ("Solutions Engineer", 0, []),               # removed from tier3 entirely
+    ("Forward Deployed Engineer", 0, []),        # removed from tier3 entirely
+    ("Android Engineer, Growth", 0, ["hard_exclude"]),        # dev role in a growth org
+    ("Senior Software Engineer, Growth", 0, ["hard_exclude"]),
+    ("Full Stack Engineer, Growth", 0, ["hard_exclude"]),
+    ("Security Engineer", 0, ["hard_exclude"]),               # cybersecurity, not GTM
+    ("Gas Pipeline Engineer", 0, ["hard_exclude"]),           # industrial, not sales pipeline
 ]
 
 # (location_raw, description_snippet, expected_eligibility)
