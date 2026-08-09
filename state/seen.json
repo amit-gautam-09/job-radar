@@ -8,13 +8,13 @@
   "ashby:airwallex:6fb704d3-9454-4ad4-b442-9a6db66d253f": {
     "company": "Airwallex",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Engineering Lead, Growth"
   },
   "ashby:airwallex:c3c24538-0a7e-4edc-b3b0-ee9b177049f4": {
     "company": "Airwallex",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Engineering Manager, Growth"
   },
   "ashby:handshake:8689b2e8-49bf-4c37-a497-13809ec01b6e": {
@@ -26,7 +26,7 @@
   "ashby:handshake:bb7eeb0b-5114-496f-925e-a790b162c3e4": {
     "company": "Handshake",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "GTM Engineer"
   },
   "ashby:mutiny:69916bd4-f70b-404a-abc7-9a270fdedfaa": {
@@ -56,7 +56,7 @@
   "ashby:openai:baa1b143-ff74-47f7-9f12-1f62a9361bd4": {
     "company": "OpenAI",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Analytics Engineer, GTM"
   },
   "ashby:openai:eaf9207e-84c9-4fa2-bd57-6877b7eb7f79": {
@@ -68,85 +68,85 @@
   "greenhouse:anthropic:5355526008": {
     "company": "Anthropic",
     "first_seen": "2026-07-17",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Finance Systems Engineer, Revenue"
   },
   "greenhouse:anthropic:5361472008": {
     "company": "Anthropic",
     "first_seen": "2026-07-18",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Engineering Manager, Growth"
   },
   "greenhouse:apolloio:5778017004": {
     "company": "Apollo.io",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Go-To-Market Engineer I, SMB"
   },
   "greenhouse:apolloio:5918855004": {
     "company": "Apollo.io",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Go-To-Market Engineer II, Mid-Market"
   },
   "greenhouse:asana:7629755": {
     "company": "Asana",
     "first_seen": "2026-07-28",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Engineering Manager, Growth"
   },
   "greenhouse:asana:8027465": {
     "company": "Asana",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "GTM Operations Manager - New Products"
   },
   "greenhouse:brex:8339037002": {
     "company": "Brex",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Engineering Manager, GTM Engineering "
   },
   "greenhouse:brex:8367549002": {
     "company": "Brex",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Engineering Manager, GTM Engineering "
   },
   "greenhouse:brex:8367552002": {
     "company": "Brex",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Engineering Manager, GTM Engineering "
   },
   "greenhouse:brex:8367553002": {
     "company": "Brex",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Engineering Manager, GTM Engineering "
   },
   "greenhouse:doximity:8079716": {
     "company": "Doximity",
     "first_seen": "2026-07-29",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Technical Senior Revenue Analyst"
   },
   "greenhouse:figma:5835673004": {
     "company": "Figma",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Senior Technical Revenue Analyst (Dublin, Ireland) "
   },
   "greenhouse:gongio:4693864006": {
     "company": "Gong",
     "first_seen": "2026-07-23",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "GTM Engineer (GTM Automations)"
   },
   "greenhouse:gongio:4697977006": {
     "company": "Gong",
     "first_seen": "2026-08-01",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "GTM AI Engineer"
   },
   "greenhouse:greenhouse:7982414": {
@@ -164,7 +164,7 @@
   "greenhouse:greenhouse:8112905": {
     "company": "Greenhouse",
     "first_seen": "2026-08-08",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "GTM Engineer"
   },
   "greenhouse:lattice:8570083002": {
@@ -182,37 +182,37 @@
   "greenhouse:pendo:8597810002": {
     "company": "Pendo",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "GTM AI Engineer"
   },
   "greenhouse:pendo:8621661002": {
     "company": "Pendo",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Sr. GTM Operations Manager- Marketing"
   },
   "greenhouse:pendo:8621664002": {
     "company": "Pendo",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Senior GTM Operations Manager, Customer Engineering"
   },
   "greenhouse:scaleai:4720969005": {
     "company": "Scale AI",
     "first_seen": "2026-08-04",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Program Manager - Growth Operations, Contract"
   },
   "greenhouse:stripe:8008880": {
     "company": "Stripe",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "Growth Engineer"
   },
   "greenhouse:togetherai:5178712007": {
     "company": "Together AI",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "GTM Engineer"
   },
   "greenhouse:webflow:7980379": {
@@ -224,7 +224,7 @@
   "lever:hhaexchange:f3ef261c-3ef2-4ed4-b0f2-cf2f8b2fa24f": {
     "company": "HHAeXchange",
     "first_seen": "2026-07-11",
-    "last_seen": "2026-08-08",
+    "last_seen": "2026-08-09",
     "title": "GTM Engineer"
   }
 }
